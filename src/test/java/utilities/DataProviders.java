@@ -20,7 +20,7 @@ public class DataProviders {
 		
 		for(int i=1;i<=totalrows;i++)     //1   //read the data from xl storing in two deminsional array
 		{
-			for(int j=0;j<totalcols;j++)    //0    i is rows j is col
+			for(int j=0;j<totalcols;j++)    //0    i is rows, j is col
 			{
 				logindata[i-1][j] = xlutil.getCellData("Sheet1", i, j);   //1,0
 			}
